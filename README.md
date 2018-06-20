@@ -9,6 +9,9 @@
 ## Use
 ```java
 GirderClient girderClient = new GirderClient("GirderApiKey");
+
+// Download a file from the id of a girder file
+girderClient.downloadFile(fileID);
 ```
 
 ![CREATIS](https://www.creatis.insa-lyon.fr/site7/sites/www.creatis.insa-lyon.fr/files/logo-creatis.png)
