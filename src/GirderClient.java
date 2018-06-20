@@ -3,7 +3,6 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-import javax.lang.model.type.NullType;
 import java.io.*;
 import java.util.Hashtable;
 import java.util.Random;
@@ -20,7 +19,6 @@ public class GirderClient {
     private String idUserGirder;
     private OkHttpClient client;
 
-    public static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
     public static final JSONParser parser = new JSONParser();
 
     /******************************************************************************************************************/
