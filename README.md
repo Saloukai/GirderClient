@@ -1,5 +1,4 @@
 # GirderClient
-![CREATIS](https://www.creatis.insa-lyon.fr/site7/sites/www.creatis.insa-lyon.fr/files/logo-creatis.png)
 [JAVA] Interface to communicate with Girder
 
 ## External Librairies
@@ -10,3 +9,5 @@
 ## Use
 ```java
 GirderClient girderClient = new GirderClient("GirderApiKey");
+
+![CREATIS](https://www.creatis.insa-lyon.fr/site7/sites/www.creatis.insa-lyon.fr/files/logo-creatis.png)
